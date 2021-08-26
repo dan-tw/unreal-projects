@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "DrivingCxx Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Mac",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"IOS",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"Linux",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"LinuxAArch64",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Shipping",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxx TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxx TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxx",
+				"TVOS",
+				"Test",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxxEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxxEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxxEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Linux",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxxEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"Debug",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxxEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"DebugGame",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DrivingCxxEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		},
+		{
+			"label": "DrivingCxxEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"DrivingCxxEditor",
+				"Mac",
+				"Development",
+				"/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/media/dan/storage/unreal/source/4.27"
+			}
+		}
+	]
+}

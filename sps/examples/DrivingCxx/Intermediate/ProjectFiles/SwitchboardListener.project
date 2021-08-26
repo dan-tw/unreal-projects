@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="SwitchboardListener">
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Target.cs" />
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/CpuUtilizationMonitor.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/CpuUtilizationMonitor.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerApp.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerMain.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerVersion.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardMessageFuture.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardPacket.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardTasks.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/SyncStatus.h" />
+    <VirtualDirectory Name="Windows">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/Windows/WindowsCpuUtilizationMonitor.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/Windows/WindowsCpuUtilizationMonitor.h" />
+      <VirtualDirectory Name="Resources">
+        <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.h" />
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Debug" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-DebugGame" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Shipping" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Test" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

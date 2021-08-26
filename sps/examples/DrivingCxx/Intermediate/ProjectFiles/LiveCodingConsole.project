@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="LiveCodingConsole">
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Target.cs" />
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Debug" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-DebugGame" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Shipping" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Test" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh LiveCodingConsole Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="TestPAL">
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/TestPAL.Target.cs" />
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/TestPAL.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/Private/Main.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/Private/Parent.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/Private/Parent.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/TestPAL/Private/TestPALLog.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-Debug" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-DebugGame" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-Shipping" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-Test" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./TestPAL-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

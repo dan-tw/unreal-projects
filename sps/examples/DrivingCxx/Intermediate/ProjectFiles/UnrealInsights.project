@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealInsights">
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/UnrealInsights.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Programs/UnrealInsights/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/UnrealInsights.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.h" />
+    <VirtualDirectory Name="IOS">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/IOS/IOSUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Linux">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/Linux/LinuxUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mac">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/Mac/MacUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealInsights/Private/Windows/WindowsUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Debug" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-DebugGame" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Shipping" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Test" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

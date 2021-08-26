@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealHeaderTool">
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Programs/UnrealHeaderTool/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ClassDeclarationMetaData.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ClassDeclarationMetaData.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Classes.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Classes.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/CodeGenerator.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/FileLineException.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/FileLineException.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/GeneratedCodeVersion.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/IScriptGeneratorPluginInterface.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/NativeClassExporter.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ParserClass.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ParserClass.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/SimplifiedParsingClassInfo.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnderlyingEnumType.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderTool.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolGlobals.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolMain.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolStats.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.h" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.h" />
+    <VirtualDirectory Name="Specifiers">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/ClassMetadataSpecifiers.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/EnumSpecifiers.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/SpecifierArrays.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Public/IScriptGeneratorPluginInterface.h" />
+  </VirtualDirectory>
+  <VirtualDirectory Name="Resources">
+    <VirtualDirectory Name="UHTDebugging">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/DocumentationObjects.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/EnumOnlyHeader.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/RigVMStructHeader.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/StructOnlyHeader.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestDeprecatedObject.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterface.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterfaceObject.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObject.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObjectSerializers.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Debug" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-DebugGame" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Shipping" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Test" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh UnrealHeaderTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

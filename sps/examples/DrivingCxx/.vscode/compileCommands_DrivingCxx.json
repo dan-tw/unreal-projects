@@ -1,0 +1,67 @@
+[
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.Build.cs",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.cpp",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.h",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxGameMode.cpp",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxGameMode.h",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxHud.cpp",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxHud.h",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxPawn.cpp",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxPawn.h",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelFront.cpp",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelFront.h",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelRear.cpp",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	},
+	{
+		"file": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelRear.h",
+		"command": "/media/dan/storage/unreal/source/4.27/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/dan/Documents/Unreal Projects/DrivingCxx/.vscode/compileCommands_DrivingCxx/DrivingCxx.175.rsp\"",
+		"directory": "/media/dan/storage/unreal/source/4.27/Engine/Source"
+	}
+]

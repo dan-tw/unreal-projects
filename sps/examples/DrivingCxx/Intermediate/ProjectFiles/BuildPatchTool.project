@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="BuildPatchTool">
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Programs/BuildPatchTool/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Automation.cs" />
+  <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/BuildPatchTool.cpp" />
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolMode.cpp" />
+    <VirtualDirectory Name="ToolModes">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/AutomationMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/ChunkDeltaOptimiseMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/CompactifyMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/DiffManifestMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/EnumerationMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/MergeManifestMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PackageChunksMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PatchGenerationMode.cpp" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/VerifyChunksMode.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h" />
+    <VirtualDirectory Name="Interfaces">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="ToolModes">
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/ChunkDeltaOptimiseMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/CompactifyMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/DiffManifestMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/EnumerationMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/MergeManifestMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h" />
+      <File Name="/media/dan/storage/unreal/source/4.27/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-Debug" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-DebugGame" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-Shipping" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-Test" />
+      <General WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./BuildPatchTool-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh BuildPatchTool Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

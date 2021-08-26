@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DrivingCxx",
+			"Path": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DrivingCxxEditor",
+			"Path": "/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxxEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DrivingCxxEditor">
+  <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx.Target.cs" />
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxxEditor.Target.cs" />
+    <VirtualDirectory Name="DrivingCxx">
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.Build.cs" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.cpp" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.h" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxGameMode.cpp" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxGameMode.h" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxHud.cpp" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxHud.h" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxPawn.cpp" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxPawn.h" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelFront.cpp" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelFront.h" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelRear.cpp" />
+      <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxxWheelRear.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Config/DefaultEditor.ini" />
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Config/DefaultEditorPerProjectUserSettings.ini" />
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Config/DefaultEngine.ini" />
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Config/DefaultGame.ini" />
+    <File Name="/home/dan/Documents/Unreal Projects/DrivingCxx/Config/DefaultInput.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Debug -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux DebugGame -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Development -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Shipping -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject&quot; -game" WorkingDirectory="/media/dan/storage/unreal/source/4.27/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/media/dan/storage/unreal/source/4.27/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</BuildCommand>
+        <CleanCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean</CleanCommand>
+        <RebuildCommand>/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject" -clean
+/media/dan/storage/unreal/source/4.27/Engine/Build/BatchFiles/Linux/Build.sh DrivingCxxEditor Linux Test -project="/home/dan/Documents/Unreal Projects/DrivingCxx/DrivingCxx.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

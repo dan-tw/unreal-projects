@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "DrivingCxx",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "/media/dan/storage/unreal/source/4.27"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug"
+		]
+	}
+}
