@@ -3,6 +3,13 @@
 	"EngineAssociation": "{00042B23-08D9-66E4-CAAC-C7A23DF1A7E1}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BlockMan",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "PixelStreaming",
