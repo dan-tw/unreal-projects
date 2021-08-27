@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx/DrivingCxx.Build.cs",
-		"/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxx.Target.cs",
-		"/home/dan/Documents/Unreal Projects/DrivingCxx/Source/DrivingCxxEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.0"
-}

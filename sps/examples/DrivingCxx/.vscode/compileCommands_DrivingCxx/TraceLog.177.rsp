@@ -1,8 +1,0 @@
--include "/media/dan/storage/unreal/source/4.27/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/TraceLog/Definitions.h" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Source" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Source/Runtime/TraceLog/Private" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TraceLog" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Source/Runtime" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Source/Runtime/TraceLog/Public" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Core" 
--I "/media/dan/storage/unreal/source/4.27/Engine/Source/Runtime/Core/Public" 
