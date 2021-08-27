@@ -10,6 +10,6 @@ public class BlockManServerTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "BlockManServer" } );
+		ExtraModuleNames.AddRange( new string[] { "BlockMan" } );
 	}
 }
